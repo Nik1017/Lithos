@@ -1,0 +1,37 @@
+# Core API
+fastapi
+uvicorn[standard]
+websockets
+requests
+python-multipart
+pydantic
+python-dotenv
+aiohttp
+jinja2
+
+# Data / Science
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+shapely
+Pillow
+matplotlib
+
+# Geospatial (needs GDAL — installed via Dockerfile apt-get)
+geopandas
+pyogrio
+fiona
+rtree
+rasterio
+
+# ML
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Google Earth Engine
+earthengine-api
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
